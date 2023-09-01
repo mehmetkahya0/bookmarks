@@ -1,0 +1,100 @@
+:root{
+    font-family: 'Space Mono';
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+}
+::selection{
+    color: black;
+    background-color: yellow;
+}
+
+
+
+header{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.home{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    right: 0;
+    color: black;
+    text-underline-offset: 0;
+    box-sizing: border-box;
+}
+
+.home:hover{
+    color: darkgrey;
+}
+
+.container{
+    background-color: black;
+    border-radius:20px;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bookmark-form input,
+.bookmark-form button {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.bookmarks {
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.bookmark {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.bookmark a {
+    text-decoration: none;
+    color: #333;
+}
+
+.bookmark a:hover {
+    text-decoration: underline;
+}
+
+
+button{
+    background-color: rgb(246, 246, 246);
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: 'Space Mono';
+    font-weight: bolder;
+    height: 25px;
+    
+}
+
+input{
+    background-color: rgb(246, 246, 246);
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: 'Space Mono';
+    font-weight: bolder;    
+    height: 25px;
+
+}
