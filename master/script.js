@@ -48,8 +48,8 @@ function displayBookmarks() {
         bookmarkDiv.classList.add('bookmark');
         bookmarkDiv.innerHTML = `
             <a href="${bookmark.url}" target="_blank">${bookmark.name}</a>
-            <button onclick="deleteBookmark('${bookmark.url}')" class="delete">Delete</button>
-            <a>${bookmark.date}</a>
+            <button onclick="deleteBookmark('${bookmark.url}')" class="delete" style="right:0; position:absolute; margin-right: 120px">Delete</button>
+            <a style="right:0; position:absolute; margin-right: 20px">${bookmark.date}</a>
         `;
         bookmarksContainer.appendChild(bookmarkDiv);
     });
