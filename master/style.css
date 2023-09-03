@@ -1,111 +1,121 @@
-:root{
-    font-family: 'Space Mono';
-    /*font-family: 'SF UI Text',sans-serif;*/
-    width: 100%;
-    box-sizing: border-box;
-    height: 100vh;
-    background-color: #F8F5F1;
+:root {
+  font-family: "Space Mono";
+  /*font-family: 'SF UI Text',sans-serif;*/
+  width: 100%;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #f8f5f1;
 }
-::selection{
-    color: black;
-    background-color: yellow;
-}
-
-
-
-header{
-    font-weight: bolder;
-    font-size: xx-large;
-    margin: 20px;
+::selection {
+  color: black;
+  background-color: yellow;
 }
 
-.home{
-    padding: 20px;
-    font-weight: bolder;
-    font-size: large;
-    position: absolute;
-    right: 0;
-    color: black;
-    text-underline-offset: 0;
-    box-sizing: border-box;
+header {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin: 20px;
 }
 
-.home:hover{
-    color: darkgrey;
+.home {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: large;
+  position: absolute;
+  right: 0;
+  color: black;
+  text-underline-offset: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    background-color: black;
-    border-radius:20px;
-    box-sizing: border-box;
+.home:hover {
+  color: darkgrey;
 }
 
-section{
-    height: 100vh;
-    width: 100%;
+.container {
+  background-color: black;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
+section {
+  height: 100vh;
+  width: 100%;
+}
 
 main {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-
-
-.add-bookmark{
-    margin-left: 20px;
+.add-bookmark {
+  margin-left: 20px;
 }
 
 .bookmark-form input,
 .bookmark-form button {
-    margin-right: 10px;
-    box-sizing: border-box;
-
+  margin-right: 10px;
+  box-sizing: border-box;
 }
 
 .bookmarks {
-    margin-top: 20px;
-    box-sizing: border-box;
-
+  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 .bookmark {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 2px rgb(133, 131, 131);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px rgb(133, 131, 131);
 }
 
 .bookmark a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 .bookmark a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+button {
+  background-color: rgb(246, 246, 246);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: "Space Mono";
+  font-weight: bolder;
+  height: 25px;
+  cursor: pointer;
+}
+
+input {
+  background-color: rgb(246, 246, 246);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: "Space Mono";
+  font-weight: bolder;
+  height: 25px;
 }
 
 
-button{
-    background-color: rgb(246, 246, 246);
-    border: 1px solid;
-    border-radius: 4px;
-    font-family: 'Space Mono';
+
+.login{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2%;
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-weight: bolder;
-    height: 25px;
-    cursor: pointer;
-    
+    filter: drop-shadow(5px 5px rgb(0, 0, 0));
 }
 
-input{
-    background-color: rgb(246, 246, 246);
-    border: 1px solid;
-    border-radius: 4px;
-    font-family: 'Space Mono';
-    font-weight: bolder;    
-    height: 25px;
+.login:hover{
+    filter: drop-shadow(5px 5px rgb(89, 89, 223)); 
 }

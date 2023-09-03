@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>bookmarks</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Space Mono"
+      rel="stylesheet"
+    />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <script src="/database/auth.js"></script>
+    <script src="/database/auth-check.js"></script>
+    <button onclick="LoginWithReplit()" class="login">Login With Replit</button>
     <div class="titles">
-        <header>Bookmarks<a class="home" href="#home">HOME</a></header>
-      
+      <header>Bookmarks<a class="home" href="#home">HOME</a></header>
     </div>
 
     <div id="bookmarks-container">
-        <div id="add-bookmark" class="add-bookmark">
-            <input type="text" id="siteName" placeholder="Website Name">
-            <input type="url" id="siteURL" placeholder="URL">
-            <button onclick="addBookmark()">Add</button>
-        </div>
-        <ul id="bookmarks"></ul>
+      <div id="add-bookmark" class="add-bookmark">
+        <input type="text" id="siteName" placeholder="Website Name" />
+        <input type="url" id="siteURL" placeholder="URL" />
+        <button onclick="addBookmark()">Add</button>
+      </div>
+      <ul id="bookmarks"></ul>
     </div>
 
-</body>
+    <div class="TODO">
+      
+    </div>
+  </body>
 </html>
