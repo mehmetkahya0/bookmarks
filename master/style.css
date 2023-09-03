@@ -97,25 +97,27 @@ input {
   border: 1px solid;
   border-radius: 4px;
   font-family: "Space Mono";
-  font-weight: bolder;
   height: 25px;
 }
 
-
-
-.login{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 2%;
-    border: 2px solid;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bolder;
-    filter: drop-shadow(5px 5px rgb(0, 0, 0));
+input:hover {
+  background-color: #eaeaea;
 }
 
-.login:hover{
-    filter: drop-shadow(5px 5px rgb(89, 89, 223)); 
+
+.login {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2%;
+  border: 2px solid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  filter: drop-shadow(5px 5px rgb(0, 0, 0));
+}
+
+.login:hover {
+  filter: drop-shadow(5px 5px rgb(89, 89, 223));
 }
