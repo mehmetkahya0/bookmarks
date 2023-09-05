@@ -134,3 +134,23 @@ input:hover {
   background-color: rgb(252, 153, 72);
   color: black;
 }
+
+
+
+.note{
+  border: 2px solid;
+  text-align: center;
+  width: max-content;
+  background-color: rgb(252, 153, 72);
+  position: static;
+}
+
+
+.bottom{
+  top: 95vh;
+  position: absolute;
+  width: 100%;
+  background-color: #333;
+  display: block;
+}
+
