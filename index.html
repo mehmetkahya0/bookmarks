@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bookmarks</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Space Mono"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/bookmarks/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/bookmarksfavicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/bookmarks/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  </head>
+  <body>
+
+    <div class="titles">
+      <header><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z"/></svg> Bookmarks <input type="submit" value="log out" class="home" onclick="location.href='/bookmarks/login page/index.html';"></input></header>
+    </div>
+
+    <div id="bookmarks-container">
+      <div id="add-bookmark" class="add-bookmark">
+        <input type="text" id="siteName" placeholder="Website Name" />
+        <input type="url" id="siteURL" placeholder="URL" />
+        <button onclick="addBookmark()">Add</button>
+      </div>
+      <ul id="bookmarks"></ul>
+    </div>
+
+
+    <div class="bottom">
+      <div class="note">
+        I'm still developing this website and new features will be added. Please get in touch if you encounter any problems. 
+      </div>
+      <button class="bottom-button"><a class="withoutLogin" href="/bookmarks/privacy policy/privacy.html">privacy policy</a></button>
+    </div>
+
+  </body>
+</html>
