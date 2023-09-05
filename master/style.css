@@ -4,7 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   height: 100vh;
-  background-color: #f8f5f1;
+  background-color: #fdedd8;
 }
 
 ::selection {
@@ -22,7 +22,8 @@
 header {
   font-weight: bolder;
   font-size: xx-large;
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .home {
@@ -32,13 +33,11 @@ header {
   right: 0;
   color: black;
   box-sizing: border-box;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: dashed;
   cursor: pointer;
   border: 1.5px solid;
+  margin-right: 10px;
   outline: none;
+  margin-top: 10px;
 }
 
 .home:hover {
@@ -63,7 +62,7 @@ main {
 }
 
 .add-bookmark {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .bookmark-form input,
@@ -83,7 +82,8 @@ main {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  box-shadow: 0px 0px 2px rgb(133, 131, 131);
+  box-shadow: 0px 0px 10px 1px #fbdcb3;
+  background-color: #fcf0e0;
 }
 
 .bookmark a {

@@ -54,7 +54,7 @@ img {
   position: absolute;
   top: -30px;
   left: calc(50% - 50px);
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(243, 240, 240);
 }
 
 img:hover{
