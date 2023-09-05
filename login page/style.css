@@ -116,9 +116,6 @@ img:hover{
   color: darkgrey;
 }
 
-.login-box a:hover {
-  color: #fff;
-}
 
 .withoutLogin{
   cursor: pointer;
@@ -147,4 +144,21 @@ button{
 
 .replButton:hover{
   background: rgba(255, 160, 83, 0.768);
+}
+
+
+
+
+p{
+  color: black;
+}
+
+.note{
+  position: absolute;
+  display: block;
+  top: 50vh;
+  border: 2px solid;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: #ffffff;
 }
