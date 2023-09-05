@@ -1,4 +1,4 @@
-# Bookmarks Web Application
+# Bookmarks Website
 
 ## Project Images
 ![1](https://github.com/mehmetkahya0/bookmarks/assets/84154488/8d7dd032-7b6a-4ba5-848a-e93e49a4c152)
