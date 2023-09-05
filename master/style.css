@@ -18,18 +18,24 @@ header {
 }
 
 .home {
-  padding: 20px;
-  font-weight: bolder;
-  font-size: large;
+  font-weight: normal;
+  font-size: normal;
   position: absolute;
   right: 0;
   color: black;
-  text-underline-offset: 0;
+
   box-sizing: border-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration:dashed;
+  cursor: pointer;
+  border: 1.5px solid;
+  outline: none;
 }
 
 .home:hover {
-  color: darkgrey;
+  color: rgb(107, 107, 107);
 }
 
 .container {
@@ -90,6 +96,7 @@ button {
   font-weight: bolder;
   height: 25px;
   cursor: pointer;
+  width: 100px;
 }
 
 input {

@@ -3,13 +3,12 @@ body {
   padding: 0;
   background-color: #fdedd8;
   background-size: cover;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   height: 100vh;
   width: 100%;
-
 }
 
-h1{
+h1 {
   font-weight: bolder;
   font-size: x-large;
 }
@@ -27,25 +26,21 @@ h1{
   padding: 70px 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 100px 50px rgb(255, 160, 83);
-  -webkit-animation: blink 3s infinite alternate;
-  animation: blink 3s infinite alternate;
+  -webkit-animation: blink 2s infinite alternate;
+  animation: blink 2s infinite alternate;
 }
-
 
 @-webkit-keyframes blink {
   100% {
-    box-shadow: 0 0 42px rgb(255, 160, 83),
-      0 0 55px rgb(255, 160, 83);
+    box-shadow: 0 0 42px rgb(255, 160, 83), 0 0 55px rgb(255, 160, 83);
   }
 }
 
 @keyframes blink {
   100% {
-    box-shadow: 0 0 42px 5px rgb(255, 160, 83),
-      0 0 55px 5px rgb(255, 160, 83);
+    box-shadow: 0 0 42px 5px rgb(255, 160, 83), 0 0 55px 5px rgb(255, 160, 83);
   }
 }
-
 
 .login-box .avatar {
   width: 100px;
@@ -75,7 +70,8 @@ h1{
   margin-bottom: 20px;
 }
 
-.login-box input[type="text"], .login-box input[type="password"] {
+.login-box input[type="text"],
+.login-box input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
@@ -97,10 +93,9 @@ h1{
 
 .login-box input[type="submit"]:hover {
   cursor: pointer;
-  background: #ffcd07;
+  background: rgba(255, 160, 83, 0.768);
   color: #000;
   box-shadow: 0px 0px 10px rgba(255, 160, 83, 0.317);
-
 }
 
 .login-box a {
@@ -114,7 +109,7 @@ h1{
   color: #fff;
 }
 
-.withoutLogin{
+.withoutLogin {
   cursor: pointer;
   border: none;
   outline: none;
