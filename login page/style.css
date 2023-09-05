@@ -27,7 +27,25 @@ h1{
   padding: 70px 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 100px 50px rgb(255, 160, 83);
+  -webkit-animation: blink 3s infinite alternate;
+  animation: blink 3s infinite alternate;
 }
+
+
+@-webkit-keyframes blink {
+  100% {
+    box-shadow: 0 0 42px rgb(255, 160, 83),
+      0 0 55px rgb(255, 160, 83);
+  }
+}
+
+@keyframes blink {
+  100% {
+    box-shadow: 0 0 42px 5px rgb(255, 160, 83),
+      0 0 55px 5px rgb(255, 160, 83);
+  }
+}
+
 
 .login-box .avatar {
   width: 100px;
