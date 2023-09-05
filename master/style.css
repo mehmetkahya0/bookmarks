@@ -142,7 +142,8 @@ input:hover {
   text-align: center;
   width: max-content;
   background-color: rgb(252, 153, 72);
-  position: static;
+  position: relative;
+  display: inline-block;
 }
 
 
@@ -151,6 +152,15 @@ input:hover {
   position: absolute;
   width: 100%;
   background-color: #333;
-  display: block;
+  display: inline-block;
 }
 
+.bottom-button{
+  background-color: #e4e4e4;
+  width: auto;
+  height: auto;
+  right: 0;
+  position: absolute;
+  margin-right: 10px;
+  border: 2px solid;
+}
