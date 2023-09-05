@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bookmarks login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="/bookmarks/auth/auth.js"></script>
+    <script src="/bookmarks/auth/auth-check.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Space Mono"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+
+    <div class="login-box">
+      <!--<img src="b-icon2.png" class="avatar" alt="Avatar Image">-->
+      <h1>Login</h1>
+      <form 
+      action="/bookmarks/master/index.html">
+        <!-- USERNAME INPUT -->
+        <label for="username">Username:</label>        
+        <input type="text" placeholder="username">
+        <!-- PASSWORD INPUT -->
+        <label for="password">Password:</label>
+        <input type="password" placeholder="password">
+        <input type="submit" value="Login" href="/bookmarks/master/index.html">
+        <button class="withoutLogin"><a class="withoutLogin" href="/bookmarks/master/index.html">continue without logging in</button>
+      </form>
+
+    </div>
+  </body>
+</html>
