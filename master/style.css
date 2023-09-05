@@ -9,7 +9,7 @@
 
 ::selection {
   color: black;
-  background-color: yellow;
+  background-color: rgb(251, 201, 100);
 }
 
 ::placeholder {
