@@ -6,9 +6,17 @@
   height: 100vh;
   background-color: #f8f5f1;
 }
+
 ::selection {
   color: black;
   background-color: yellow;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 0.5; /* Firefox */
+  font-weight: lighter;
 }
 
 header {
@@ -23,12 +31,11 @@ header {
   position: absolute;
   right: 0;
   color: black;
-
   box-sizing: border-box;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  text-decoration:dashed;
+  text-decoration: dashed;
   cursor: pointer;
   border: 1.5px solid;
   outline: none;
@@ -88,8 +95,19 @@ main {
   text-decoration: underline;
 }
 
+.add-bookmark button {
+  background-color: rgb(255, 160, 83);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: "Space Mono";
+  font-weight: bolder;
+  height: 29px;
+  cursor: pointer;
+  width: 100px;
+}
+
 button {
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(255, 160, 83);
   border: 1px solid;
   border-radius: 4px;
   font-family: "Space Mono";
@@ -99,15 +117,20 @@ button {
   width: 100px;
 }
 
+button:hover {
+  background-color: rgb(248, 146, 62);
+}
+
 input {
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(255, 160, 83);
   border: 1px solid;
   border-radius: 4px;
   font-family: "Space Mono";
   height: 25px;
+  color: black;
 }
 
 input:hover {
-  background-color: #eaeaea;
+  background-color: rgb(252, 153, 72);
+  color: black;
 }
-
