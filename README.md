@@ -17,7 +17,7 @@ This README provides a detailed overview of the application, its features, and i
 **Delete Bookmarks:** Remove unwanted bookmarks with the delete option.
 **User-Friendly Interface:** Simple and intuitive interface for users of all levels.
 **Clear privacy policy**
-**Login Page: ** you can login with username and password or replit account! (WIP)
+**Login Page:** you can login with username and password or replit account! (WIP)
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
